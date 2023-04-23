@@ -1,0 +1,17 @@
+body {
+  background-color: pink;
+}
+.heading-wrapper {
+  text-align: center;
+}
+.content li {
+  text-transform: capitalize;
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+let info = location.search;
+info = info.substring(1, info.length - 1).split("&");
+let name = document.getElementById("name");
+let password = document.getElementById("password");
+let Gender = document.getElementById("Gender");
+let email = document.getElementById("email");
+let name_info = info[0].split("=");
+let name_info2 = info[1].split("=");
+let password_info = info[2].split("=");
+let email_info = info[3].split("=");
+name.innerHTML = `Welcome ${name_info[1]} ${name_info2[1]}`;
+password.innerHTML = `Your password is : ${password_info[1]}`;
+email.innerHTML = `Your email is : ${email_info[1]}`;

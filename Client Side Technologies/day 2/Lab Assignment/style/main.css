@@ -1,0 +1,43 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: pink;
+}
+.form-container {
+  border-right: 0.7rem solid #7a0303;
+  border-bottom: 0.7rem solid #7a0303;
+  border-top: 0.7rem solid rgba(249, 253, 249, 0.2);
+  border-left: 0.7rem solid rgba(249, 253, 249, 0.2);
+  width: fit-content;
+  margin: 4rem auto 0 auto;
+}
+td {
+  width: 45%;
+  border-top: 2px solid #af0404;
+  border-left: 2px solid #af0404;
+  border-right: 2px solid rgba(243, 246, 244, 0.4);
+  border-bottom: 2px solid rgba(243, 246, 244, 0.4);
+}
+table {
+  border-spacing: 0.5rem;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  outline: none;
+}
+.day {
+  width: 1.5rem;
+}
+.year {
+  width: 3rem;
+}
+label {
+  font-weight: bold;
+  text-transform: capitalize;
+}

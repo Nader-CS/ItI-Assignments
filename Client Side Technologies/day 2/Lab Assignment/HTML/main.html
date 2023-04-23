@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="../style/main.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form class="form-table" action="./index.html">
+        <table>
+          <caption
+            style="
+              text-transform: capitalize;
+              text-decoration: underline;
+              font-weight: bold;
+              font-size: 1.5rem;
+            "
+          >
+            form
+          </caption>
+          <tbody>
+            <tr>
+              <td><label>first name</label></td>
+              <td><input type="text" name="first-name" accesskey="i" /></td>
+            </tr>
+            <tr>
+              <td><label>last name</label></td>
+              <td><input type="text" name="last-name" accesskey="l" /></td>
+            </tr>
+            <tr>
+              <td><label>password</label></td>
+              <td><input type="password" name="password" accesskey="p" /></td>
+            </tr>
+            <tr>
+              <td rowspan="2" style="text-align: center">
+                <label>gender</label>
+              </td>
+              <td>
+                <input type="radio" name="gender" id="male" />
+                <label for="male">male</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="gender" id="female" />
+                <label for="female">female</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label>birthday: </label>
+                <select name="month">
+                  <option disabled selected>[Select a Month]</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </td>
+              <td>
+                <input placeholder="dd" class="day" name="day" />
+                <input placeholder="yyyy" class="year" name="year" />
+              </td>
+            </tr>
+            <tr>
+              <td
+                colspan="2"
+                style="
+                  text-align: center;
+                  text-decoration: underline;
+                  font-size: 1.5rem;
+                "
+              >
+                <label>interests</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" id="sports" name="interests" />
+                <label for="sports">sports</label>
+              </td>
+              <td>
+                <input type="checkbox" id="music" />
+                <label for="music">music</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" id="books" />
+                <label for="books">books</label>
+              </td>
+              <td>
+                <input type="checkbox" id="computer" />
+                <label for="computer">computer stuff</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" id="fashion" />
+                <label for="fashion">fashion</label>
+              </td>
+              <td>
+                <input type="checkbox" id="movies" />
+                <label for="movies">movies</label>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center">
+                <button>Submit</button>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2" style="text-align: center">
+                <label
+                  >this form is
+                  <span style="text-decoration: underline">responsive</span> and
+                  is created by
+                  <span style="text-decoration: underline">Nader</span>
+                  &#128151;</label
+                >
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

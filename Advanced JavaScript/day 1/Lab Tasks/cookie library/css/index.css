@@ -1,0 +1,12 @@
+.genderSelect {
+  display: block;
+}
+input[type="radio"] {
+  margin-right: 20rem;
+}
+.check {
+  text-align: center;
+}
+div {
+  margin-bottom: 1rem;
+}

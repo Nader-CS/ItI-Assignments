@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="button"] {
+  display: inline-block;
+  padding: 0.5rem 4rem;
+  background: rgba(89, 89, 252, 0.5);
+  border: none;
+  outline: 2.5px solid blue;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: 0.2s all linear;
+}
+input[type="button"]:hover {
+  -webkit-box-shadow: 6px -4px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px -4px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px -4px 14px 0px rgba(0, 0, 0, 0.75);
+  background: pink;
+}

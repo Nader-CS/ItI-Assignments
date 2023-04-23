@@ -1,0 +1,25 @@
+body {
+  background-color: pink;
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.footer_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 10rem;
+}
+.footer_wrapper a {
+  text-align: center;
+}
+.footer_wrapper img {
+  width: 10%;
+}
+.text-wrapper {
+  text-align: center;
+}
+.text-wrapper {
+  font-weight: bold;
+}

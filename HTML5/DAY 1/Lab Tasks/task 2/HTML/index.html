@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video task</title>
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <script src="../javascript/index.js" defer></script>
+  </head>
+  <body>
+    <div class="video-container">
+      <video width="600px" height="300px" id="video" controls>
+        <source src="../videos/flower.webm" />
+      </video>
+    </div>
+    <div>
+      <input
+        type="range"
+        min="0"
+        max="5"
+        class="prgoress"
+        id="prgoress"
+        value="0"
+      />
+    </div>
+    <main>
+      <div class="buttons-container">
+        <button id="play">Play</button>
+        <button id="stop">Stop</button>
+        <button id="video-start">&lt;&lt;</button>
+        <button id="low-time">&lt;</button>
+        <button id="high-time">&gt;</button>
+        <button id="video-end">&gt;&gt;</button>
+        <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+        <button id="mute">Mute</button>
+        <label>speed</label>
+        <input
+          type="range"
+          min="0.5"
+          max="3"
+          value="0.5"
+          step="0.5"
+          id="speed"
+        />
+      </div>
+    </main>
+  </body>
+</html>
