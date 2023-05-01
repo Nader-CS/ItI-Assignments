@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Styles/style.css">
+  <title>Students</title>
+</head>
+<body>
+  <header>
+    <h1>My Students</h1>
+  </header>
+  <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>nationality</th>
+          <th>city</th>
+          <th>lattitude</th>
+          <th>longtitude</th>
+          <th>gender</th>
+          </tr>
+        </thead>
+    <tbody>
+      <%for(let i=1;i<data.length;i++){ %>
+        <tr>
+          <td>
+            <%=data[i].id %>
+          </td>
+          <td>
+            <%=data[i].name %>
+          </td>
+          <td>
+            <%=data[i].nationality %>
+          </td>
+          <td>
+            <%=data[i].lattitude %>
+          </td>
+          <td>
+            <%=data[i].longtitude %>
+          </td>
+          <td>
+            <%=data[i].gender %>
+          </td>
+        <% } %>
+    </tbody>
+  </table>
+</body>
+</html>
