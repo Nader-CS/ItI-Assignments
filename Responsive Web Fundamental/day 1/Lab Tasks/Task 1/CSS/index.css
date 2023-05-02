@@ -29,6 +29,7 @@ article {
   height: 9rem;
   border: 4px solid grey;
   margin-top: 1rem;
+  background-color: aliceblue;
 }
 .footer-text {
   text-align: center;

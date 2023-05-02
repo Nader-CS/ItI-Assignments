@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
 .parent {
   height: 100vh;
@@ -13,6 +18,7 @@
   margin: 0 auto;
   height: 90vh;
   margin-top: 1rem;
+  background-color: gray;
 }
 .child {
   border: 3px solid black;
@@ -21,4 +27,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: bisque;
 }
