@@ -1,0 +1,13 @@
+<div class="border border-primary w-50 m-auto text-center overflow-hidden mt-2">
+  <input
+    class="input mt-2 form-control w-50 text-center m-auto"
+    placeholder="Enter a text"
+    (input)="getData($event)"
+    [value]="value"
+    style="font-size: 1.5rem"
+  />
+  <p class="mt-2 text-danger" style="font-size: 1.5rem">
+    Data: <span class="text-primary">{{ value }}</span>
+  </p>
+  <button class="btn btn-danger mb-2" (click)="click()">Reset</button>
+</div>
