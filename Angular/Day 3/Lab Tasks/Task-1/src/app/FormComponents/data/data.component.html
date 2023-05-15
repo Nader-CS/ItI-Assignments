@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-8 m-auto">
+      <h1 class="alert alert-primary text-center">Data</h1>
+      <div class="col-6 m-auto">
+        <table class="table table-striped text-center">
+          <thead>
+            <tr style="font-size: 1.5rem">
+              <th>Name</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let d of data" style="font-size: 1.3rem">
+              <td>{{ d.name }}</td>
+              <td>{{ d.age }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
