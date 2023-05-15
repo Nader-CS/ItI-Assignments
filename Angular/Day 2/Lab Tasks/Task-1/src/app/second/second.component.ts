@@ -50,12 +50,11 @@ export class SecondComponent {
       }
       this.index++;
       this.src = this.imageNames[this.index];
-    }, 2000);
+    }, 1500);
   }
   stop() {
     if (this.interval) {
       clearInterval(this.interval);
-      this.interval = null;
     }
   }
 }
